@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.calculator {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 25em;
+  height: 25em;
+}
+
+/*Rows*/
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 17%;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 17%;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 17%;
+}
+
+.row4 {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 17%;
+}
+
+.row5 {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 17%;
+}
+
+/*Buttons*/
+
+.button {
+  background-color: hsl(108, 50%, 38%);
+  color: white;
+  font-size: 2em;
+  border: 1px solid white;
+}
+
+.operator {
+  background-color: hsl(110, 62%, 65%);
+  color: hsl(109, 34%, 31%);
+  font-size: 2em;
+  border: 1px solid white;
+}
+
+#C {
+  background-color: hsl(108, 50%, 38%);
+  flex: 1 25%;
+  color: white;
+  font-size: 2em;
+  border: 1px solid white;
+}
+
+#display {
+  display: flex;
+  background-color: hsl(108, 50%, 38%);
+  flex: 1 75%;
+  border: 1px solid white;
+  font-size: 2em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.space {
+  flex: 1 75%;
+  background-color: hsl(108, 50%, 38%);
+}
+
+.multiply {
+  flex: 1 25%;
+}
+
+.subtract {
+  flex: 1 25%;
+}
+
+.addition {
+  flex: 1 25%;
+}
+
+.divide {
+  flex: 1 25%;
+}
+
+#equal {
+  flex: 1 25%;
+}
+
+.period {
+  flex: 1 25%;
+}
+
+.zero {
+  flex: 1 25%;
+}
+
+.one {
+  flex: 1 25%;
+}
+
+.two {
+  flex: 1 25%;
+}
+
+.three {
+  flex: 1 25%;
+}
+
+.four {
+  flex: 1 25%;
+}
+
+.five {
+  flex: 1 25%;
+}
+
+.six {
+  flex: 1 25%;
+}
+
+.seven {
+  flex: 1 25%;
+}
+
+.eight {
+  flex: 1 25%;
+}
+
+.nine {
+  flex: 1 25%;
+}
